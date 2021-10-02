@@ -13,12 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/font"
-        android:paddingEnd="0dp"
         android:text="Delivery Classification"
-        android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textColor="#2D1657"
+        android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,78 +48,93 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintVertical_bias="0.05" />
 
-    <TextView
-        android:id="@+id/개신동"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font"
-        android:paddingTop="150dp"
-        android:text="개신동: "
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/title"
-        app:layout_constraintTop_toBottomOf="@id/button" />
-
-    <TextView
-        android:id="@+id/사창동"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font"
-        android:paddingTop="50dp"
-        android:text="사창동: "
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/title"
-        app:layout_constraintTop_toTopOf="@id/textView2" />
-
 
     <TextView
         android:id="@+id/오창읍"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:fontFamily="@font/font"
-        android:paddingTop="50dp"
+        android:paddingTop="30dp"
         android:text="오창읍: "
         android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@id/title"
-        app:layout_constraintTop_toTopOf="@id/textView3" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font"
-        android:paddingTop="150dp"
-        android:text="Hello World!"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toEndOf="@id/개신동"
-        app:layout_constraintTop_toBottomOf="@id/button" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/font"
-        android:paddingTop="50dp"
-        android:text="Hello World!"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintStart_toEndOf="@id/사창동"
-        app:layout_constraintTop_toBottomOf="@id/textView1" />
+        app:layout_constraintStart_toEndOf="@id/textView2"
+        app:layout_constraintTop_toTopOf="@id/사창동" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/font"
-        android:paddingTop="50dp"
-        android:text="Hello World!"
+        android:paddingTop="30dp"
+        android:text=" "
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintStart_toEndOf="@id/오창읍"
-        app:layout_constraintTop_toBottomOf="@id/textView2" />
+        app:layout_constraintTop_toTopOf="@id/사창동" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:paddingTop="30dp"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/개신동"
+        app:layout_constraintTop_toBottomOf="@id/button" />
+
+    <TextView
+        android:id="@+id/개신동"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/font"
+        android:paddingTop="30dp"
+        android:text="개신동: "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="@id/button"
+        app:layout_constraintTop_toBottomOf="@id/button" />
+
+    <TextView
+        android:id="@+id/사창동"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:fontFamily="@font/font"
+        android:paddingTop="30dp"
+        android:text="사창동: "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/textView1"
+        app:layout_constraintTop_toTopOf="@id/textView1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:paddingTop="30dp"
+        android:text=" "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/사창동"
+        app:layout_constraintTop_toTopOf="@id/사창동" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="412dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/오창읍"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
