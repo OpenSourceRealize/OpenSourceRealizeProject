@@ -11,10 +11,11 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="7dp"
         android:layout_marginTop="7dp"
+        android:fontFamily="@font/font"
         android:text="1"
         android:textSize="17dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="12dp"
         tools:layout_editor_absoluteY="11dp" />
@@ -25,6 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="36dp"
+        android:fontFamily="@font/font"
         android:text="2021.2.3.55.44.33"
         android:textColor="@color/black"
         android:textSize="15dp"
@@ -36,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
+        android:fontFamily="@font/font"
         android:text="2021.2.3.55.44.33"
         android:textColor="@color/black"
         android:textSize="15dp"
@@ -47,6 +50,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:fontFamily="@font/font"
         android:text="운송장 번호:"
         android:textColor="@color/black"
         android:textSize="17dp"
@@ -59,11 +63,38 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="36dp"
+        android:fontFamily="@font/font"
         android:text="날짜: "
         android:textColor="@color/black"
         android:textSize="17dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/font"
+        android:text="지역:"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@id/date"
+        app:layout_constraintTop_toBottomOf="@+id/boxnum"
+
+        />
+
+    <TextView
+        android:id="@+id/locationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/font"
+        android:text="사창동"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        app:layout_constraintStart_toEndOf="@id/location"
+        app:layout_constraintTop_toTopOf="@id/location" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

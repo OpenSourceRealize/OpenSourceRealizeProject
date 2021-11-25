@@ -15,11 +15,13 @@ class UserAdapter(val context: Context,val UserList: ArrayList<user>) : BaseAdap
         val number = view.findViewById<TextView>(R.id.number)
         val date = view.findViewById<TextView>(R.id.datetext)
         val boxnum = view.findViewById<TextView>(R.id.boxnumtext)
+        val location = view.findViewById<TextView>(R.id.locationtext)
 
         val user = UserList[position]
         number.text = user.number
         date.text = user.date
         boxnum.text = user.boxnum
+        location.text = user.location
 
         return view
 

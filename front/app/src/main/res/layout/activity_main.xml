@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFE3E3"
     tools:context=".MainActivity">
 
     <TextView
@@ -126,8 +125,8 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="412dp"
-        android:layout_height="400dp"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toBottomOf="parent"

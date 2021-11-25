@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val database: FirebaseDatabase =
-            FirebaseDatabase.getInstance("https://my-application-e7c14-default-rtdb.firebaseio.com/")
-        val myRef: DatabaseReference = database.getReference("2021-10-2")
+            FirebaseDatabase.getInstance("https://osori-f3f1a-default-rtdb.asia-southeast1.firebasedatabase.app/")
+        val myRef: DatabaseReference = database.getReference("2021-11-23")
         val textView1 = findViewById<TextView>(R.id.textView1)
         val textView2 = findViewById<TextView>(R.id.textView2)
         val textView3 = findViewById<TextView>(R.id.textView3)
@@ -51,7 +51,8 @@ class MainActivity : AppCompatActivity() {
                             val e1 = user(
                                 ds.child("순번").getValue().toString(),
                                 ds.child("바코드찍은 날짜").getValue().toString(),
-                                ds.child("운송장번호").getValue().toString()
+                                ds.child("운송장번호").getValue().toString(),
+                                ds.child("지역").getValue().toString()
                             )
                             UserList.add(e1)
                         }
