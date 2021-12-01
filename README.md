@@ -1,5 +1,7 @@
 # tesserract를 이용한 쿠팡 자동 택배 분류 시스템_TEAM OSORI
-<img src="https://user-images.githubusercontent.com/62468086/143457188-06e7c976-b8fd-4560-81f4-da2f36fca7cd.png"  width="450" height="270"/> <img src="https://user-images.githubusercontent.com/62468086/143458158-f9b40d9b-cd74-494a-86ae-ffff14139ba1.png"  width="450" height="270"/>
+<img src="https://user-images.githubusercontent.com/62468086/143457188-06e7c976-b8fd-4560-81f4-da2f36fca7cd.png"  width="450" height="270"/> 
+
+<img src="https://user-images.githubusercontent.com/62468086/143458158-f9b40d9b-cd74-494a-86ae-ffff14139ba1.png"  width="450" height="270"/>
 
 
 충북대학교 SW중심대학사업단 오픈소스 SW 동아리 오소리는 2021.4월 만들어졌습니다.  
