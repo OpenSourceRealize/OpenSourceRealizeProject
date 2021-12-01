@@ -1,9 +1,9 @@
+# tesserract를 이용한 쿠팡 자동 택배 분류 시스템_TEAM OSORI
 ## 팀원
 |황보경<br>[정보통신공학부]|권현서<br>[컴퓨터공학부]|오병욱<br>[정보통신공학부]|이석희<br>[정보통신공학부]|최문형<br>[소프트웨어학부]|
 |------|---|---|---|----|
 
 
-# tesserract를 이용한 쿠팡 자동 택배 분류 시스템_TEAM OSORI
 <img src="https://user-images.githubusercontent.com/62468086/143457188-06e7c976-b8fd-4560-81f4-da2f36fca7cd.png"  width="450" height="270"/> 
 
 <img src="https://user-images.githubusercontent.com/62468086/143458158-f9b40d9b-cd74-494a-86ae-ffff14139ba1.png"  width="450" height="270"/>
